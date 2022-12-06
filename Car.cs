@@ -17,11 +17,27 @@ namespace TestLesson
         public int Year;
         //int[] params
         //default constructor
+        //signature
+
+        //overload
         public Car(string name, string color)
         {
             Color = color + "1";
             Name = name;
             Year = 2001;
+        }
+        public Car()
+        {
+            Console.WriteLine("Helloo ");
+
+        }
+        public Car(int d,string soz)
+        { 
+
+        }
+        static Car()
+        {
+            Console.WriteLine("Hi Static");
         }
         //accessmodifier returntype MethodName(input params)
        // {

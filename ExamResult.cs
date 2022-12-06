@@ -11,6 +11,7 @@ namespace TestLesson
         //Car bmw = new Car("bmw");
        
         int a = 6;
+        
         //var,const,dynamic
         //local vs global variables
         //int metod

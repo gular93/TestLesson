@@ -52,31 +52,7 @@ namespace TestLesson
             static void Main(string[] args)
             {
 
-                try
-                {
-                    string name = Console.ReadLine();
-                    int k = Convert.ToInt32(name);
-
-                    int b = k;
-                    Console.WriteLine("salam");
-                }                
-                catch (IndexOutOfRangeException ex)
-                {
-                    throw new Exception("Xeta bash verdi");
-                    // Console.WriteLine(ex.Message);
-                    // throw;
-                }
-                catch (ArgumentNullException ex)
-                {
-
-                }
-                catch (Exception ex)
-                {
-                }
-                finally
-                {
-                    Console.WriteLine("PRoses tamamlandi");
-                }
+               
                 int a = 5;
                 // string s = a.ToString();
                 // object sobj = 4;//

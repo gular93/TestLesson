@@ -24,8 +24,8 @@ namespace TestLesson
         }
         public string GetName()
         {
-            Console.WriteLine();
-            return "ss2";
+           
+            return "ss2344223";
 
     }
      public class Square:Shape
